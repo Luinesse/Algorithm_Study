@@ -28,4 +28,4 @@ ex) 중위 순회 식 : 1 2 3 4 5 6 7 8 9 10
     중위 순회 식에서 루트 노드의 인덱스를 저장할 정수형 변수 idx를 선언하여 tmp[root] 를 대입한다.
     식을 분할하기 위해 왼쪽 서브트리의 원소 개수를 저장할 정수형 변수 leftCnt를 선언하여 idx - inFirst를 대입한다.
     루트 노드를 출력하고 preOrder(inFirst,idx-1,postFirst,PostFirst + leftCnt - 1) 함수를 호출하여 왼쪽 서브트리에 대해 위 작업을 수행한다.
-    왼쪽 서브트리가 끝나면 preOrder(idx + 1, inEnd, postFirst + leftCnt, postEnd - 1) 함수를 호출하여 오른쪽 서브트리에 대해 위 작업을 수행한다.ㄴ
+    왼쪽 서브트리가 끝나면 preOrder(idx + 1, inEnd, postFirst + leftCnt, postEnd - 1) 함수를 호출하여 오른쪽 서브트리에 대해 위 작업을 수행한다.
