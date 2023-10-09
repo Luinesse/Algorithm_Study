@@ -61,10 +61,10 @@ int main()
 
         cout << LCA(t1, t2, parent, depth) << endl;
 
-        for(int i = 0; i < 10001; i++)
+        for(int k = 0; k < 10001; k++)
         {
-            depth[i] = 1;
-            parent[i] = 0;
+            depth[k] = 1;
+            parent[k] = 0;
         }
     }
 
